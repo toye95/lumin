@@ -1,0 +1,65 @@
+.cart {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 9999;
+  top: 0;
+  right: 0;
+  background-color: #f2f3f1;
+  overflow-x: hidden;
+  transition: 0.1s;
+
+  a {
+    padding: 8px 8px 8px 16px;
+    text-decoration: none;
+    font-size: 32px;
+    color: #818181;
+    display: block;
+    transition: 0.1s;
+  }
+
+  .closebtn {
+    top: 0;
+    left: 25px;
+    font-size: 32px;
+    cursor: pointer;
+  }
+}
+
+.currency {
+  border: none;
+  background-color: #fff;
+  padding: 8px 10px;
+  margin-left: 20px;
+}
+
+.text {
+  display: inline-block;
+}
+
+.button {
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #4c5649;
+  padding: 12px 14px;
+  cursor: pointer;
+  border: none;
+  margin: 20px;
+  margin-top: 0px;
+  width: 100%;
+}
+
+.buttonContainer {
+  width: 92%;
+}
+
+.subtotal {
+  border-top: 1px solid #4c5649;
+  margin: 20px;
+  margin-bottom: 0px;
+  padding: 20px 0px;
+}
+
+.totalText {
+  float: right;
+}

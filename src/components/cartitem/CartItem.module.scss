@@ -1,0 +1,66 @@
+.card {
+  background-color: #fff;
+  margin: 20px;
+  height: 100px;
+}
+
+.closebutton {
+  top: 0px;
+  right: 25px;
+  font-size: 24px !important;
+  text-align: right;
+  padding: 4px 8px 4px 8px !important;
+  cursor: pointer;
+}
+
+.title {
+  font-size: 13px;
+  position: absolute;
+  margin-left: 20px;
+  margin-top: -20px;
+}
+
+.img {
+  width: 30px;
+  height: 30px;
+  right: 70px;
+  position: absolute;
+  margin-top: -30px;
+}
+
+.price {
+  font-size: 14px;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.quantity {
+  font-size: 14px;
+  margin-left: 20px;
+  padding-top: 30px;
+  position: absolute;
+}
+
+.button {
+  border-radius: 0px;
+  background-color: transparent;
+  outline: none;
+  border: 1px solid #bbb;
+
+  &:nth-child(1) {
+    border-right: none;
+  }
+
+  &:nth-child(2) {
+    border-right: none;
+    border-left: none;
+  }
+
+  &:nth-child(3) {
+    border-left: none;
+  }
+}
+
+.productDetails {
+  //   display: flex;
+}
